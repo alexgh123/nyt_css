@@ -1,0 +1,22 @@
+#header {
+  /*position:fixed;*/
+  background-color: yellow;
+}
+
+#article-container {
+  /*this shit is centered*/
+  background-color: blue;
+
+}
+
+#article {
+  background-color: gray;
+}
+
+#media {
+  background-color: red;
+}
+
+#comments {
+  background-color: orange;
+}
