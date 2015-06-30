@@ -1,29 +1,30 @@
 #header {
   /*position:fixed;*/
-  background-color: yellow;
+
 }
 
 #article-container {
   /*this shit is centered*/
-  background-color: blue;
+
   padding-left: 10% ;
   padding-right:11%;
 
 }
 
 .article {
-  background-color: gray;
+
   padding-left: 1%;
   padding-right: 1%;
+  padding-top: 1%;
 }
 
 #media {
-  background-color: red;
+
 
 }
 
 #comments {
-  background-color: orange;
+
 }
 
 img{
