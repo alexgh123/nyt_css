@@ -1,11 +1,70 @@
-#header {
-  /*position:fixed;*/
+/* reset
 
+CSS Reset – a simpler option
+April 23, 2010 by Russ Weakley
+
+A quick presentation on CSS Reset including a basic explanation, an outline of some of the advantages and disadvantages, as well as a simpler reset option.
+
+
+The Simple CSS reset code
+
+html, body, ul, ol, li, form, fieldset, legend
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin-top: 0; }
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td
+{
+  text-align: left;
+  vertical-align: top;
+  font-weight: normal;
+}
+
+input, textarea, select
+{
+  font-size: 110%;
+  line-height: 1.1;
+}
+
+abbr, acronym
+{
+  border-bottom: .1em dotted;
+  cursor: help;
+}
+
+ styling */
+
+#header {
+  position:fixed;
+  background-color: white;
+  width: 100%;
+  margin-top:-10px;
+  padding-top: 5px;
 }
 
 #article-container {
   /*this shit is centered*/
 
+  padding-top: 40px;
   padding-left: 10% ;
   padding-right:11%;
 
