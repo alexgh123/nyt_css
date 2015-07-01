@@ -59,12 +59,31 @@ abbr, acronym
   width: 100%;
   margin-top:-10px;
   padding-top: 5px;
+  border: 1px solid gray;
+
+}
+
+.header-left{
+  text-align: left;
+}
+
+.header-center{
+  text-align: center;
+
+}
+
+.header-right {
+  text-align: right;
+}
+
+button {
+
 }
 
 #article-container {
   /*this shit is centered*/
 
-  padding-top: 40px;
+  padding-top: 70px;
   padding-left: 10% ;
   padding-right:11%;
 
@@ -77,18 +96,17 @@ abbr, acronym
   padding-top: 1%;
 }
 
-#media {
-
-
+.image-text-overlay img {
+  /*border: 1px solid gray;*/
+  width:100%;
+  height: auto;
 }
 
-#comments {
 
-}
-
-img{
+#article img{
     width:100%;
     height: auto;
+
 }
 
 
