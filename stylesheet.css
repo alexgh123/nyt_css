@@ -54,7 +54,7 @@ abbr, acronym
  styling */
 
  * {
-  border:1px solid blue;
+  /*border:1px solid blue;*/
  }
 
 #header {
@@ -98,9 +98,6 @@ button:hover {
     background-color: gray;
 }
 
-
-
-
 .blue_button {
 
   background-color: #6288a5;
@@ -134,12 +131,9 @@ button:hover {
 }
 
 #article-container {
-
-
   padding-top: 90px;
   padding-left: 10% ;
   padding-right:11%;
-
 }
 
 .other_articles div {
@@ -156,27 +150,56 @@ button:hover {
 }
 
 .article {
-
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 1%;
 }
 
-
-.image-text-overlay > img {
+.image-text-overlay {
 
   width:100%;
   height: auto;
   position:relative;
 }
 
-
+#inflation-image {
+  width:100%;
+  height: auto;
+  position: absolute;
+}
 
 #inflation-text-1 {
-  position:absolute;
-  top: 0px;
-  left: 0;
+  position: absolute;
+  top: 150px;
+  left: 5px;
+  width: 25%;
+  padding:0,5px,0,5px;
 }
+
+#inflation-text-2 {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  width: 25%;
+  padding:0,5px,0,5px;
+}
+
+#inflation-text-3 {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  width: 25%;
+  padding:0,5px,0,5px;
+}
+
+#inflation-text-4 {
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  width: 25%;
+  padding:0,5px,0,5px;
+}
+
 
 
 #article img{
