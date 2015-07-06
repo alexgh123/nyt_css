@@ -89,9 +89,13 @@ abbr, acronym
 
 
 
-button {
+button:hover {
+    background-color: gray;
 
 }
+
+
+
 
 .blue_button {
 
@@ -113,6 +117,11 @@ button {
   background-color: white;
   font-family: "nyt-franklin",arial,helvetica,sans-serif;
 
+}
+
+#favicon {
+  height:15px;
+  width: 15px;
 }
 
 #article-container {
