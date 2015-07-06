@@ -54,7 +54,7 @@ abbr, acronym
 
 
  * {
-  border:1px solid blue;
+  /*border:1px solid blue;*/
  }
 
 #header {
@@ -200,6 +200,38 @@ button:hover {
 #inflation-text-4 {
   position: absolute;
   top: 150px;
+  left: 750px;
+  width: 25%;
+  padding:0,5px,0,5px;
+}
+
+#inflation-text-5 {
+  position: absolute;
+  top: 450px;
+  left: 5px;
+  width: 25%;
+  padding:0,5px,0,5px;
+}
+
+#inflation-text-6 {
+  position: absolute;
+  top: 450px;
+  left: 250px;
+  width: 25%;
+  padding:0,5px,0,5px;
+}
+
+#inflation-text-7 {
+  position: absolute;
+  top: 450px;
+  left: 500px;
+  width: 25%;
+  padding:0,5px,0,5px;
+}
+
+#inflation-text-8 {
+  position: absolute;
+  top: 450px;
   left: 750px;
   width: 25%;
   padding:0,5px,0,5px;
