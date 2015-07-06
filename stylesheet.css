@@ -142,6 +142,19 @@ button:hover {
 
 }
 
+.other_articles div {
+  display:inline-block;
+  width: 200px;
+  border-right:solid gray 1px;
+  margin-left: 10px;
+
+}
+
+.other_articles img {
+  float:left;
+  margin-right: 5px;
+}
+
 .article {
 
   padding-left: 1%;
