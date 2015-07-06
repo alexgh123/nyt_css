@@ -120,7 +120,12 @@ button:hover {
   border:0;
   background-color: white;
   font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
 
+#magnifying_glass {
+  height:10px;
+  width:10px;
+  border:0;
 }
 
 #favicon {
