@@ -53,35 +53,41 @@ abbr, acronym
 
  styling */
 
+ * {
+  /*border:1px solid blue;*/
+ }
+
 #header {
   position:fixed;
   background-color: white;
   width: 100%;
   margin-top:-10px;
   padding-top: 5px;
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
 
 }
 
+
 .header-left{
-  text-align: left;
+
   float:left;
+  width: 27%;
 }
 
 .header-center{
-  text-align: center;
-  float:center;
-  margin-top: 10px;
-  padding-top: 5px;
+
+  float:left;
+  width: 27%;
 
 
 }
 
 .header-right {
-  text-align: right;
   float:right;
-  margin-right: 20px
+  width: 27%;
 }
+
+
 
 button {
 
@@ -90,7 +96,7 @@ button {
 #article-container {
 
 
-  padding-top: 70px;
+  padding-top: 90px;
   padding-left: 10% ;
   padding-right:11%;
 
@@ -128,4 +134,8 @@ button {
 
 li {
     display:inline-block;
+}
+
+ul {
+    display: inline-block;
 }
