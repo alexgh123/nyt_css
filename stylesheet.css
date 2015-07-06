@@ -87,11 +87,15 @@ abbr, acronym
   width: 27%;
 }
 
+#sections_button {
+  border:1px solid gray;
+  background-color: white;
+  margin-left: -48px;
+}
 
 
 button:hover {
     background-color: gray;
-
 }
 
 
