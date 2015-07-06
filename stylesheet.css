@@ -63,7 +63,7 @@ abbr, acronym
   width: 100%;
   margin-top:-10px;
   padding-top: 5px;
-  /*border: 1px solid gray;*/
+  border: 1px solid gray;
 
 }
 
@@ -90,6 +90,28 @@ abbr, acronym
 
 
 button {
+
+}
+
+.blue_button {
+
+  background-color: #6288a5;
+  border: 1px solid #4d7b9f;
+  color:white;
+  border-radius:3px;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
+}
+
+#settings_icon {
+  height:15px;
+  width:15px;
+  border:0;
+}
+
+.clear_button {
+  border:0;
+  background-color: white;
+  font-family: "nyt-franklin",arial,helvetica,sans-serif;
 
 }
 
